@@ -1,0 +1,125 @@
+/*sticky footer */
+html, body{
+    background: transparent;
+    height:100%;
+    margin: 0;
+}
+/* Style the container */
+#container {
+    padding-top: 75px;
+    min-height: 100%;
+    background-color: transparent;
+}
+#main{
+    background: transparent;
+    overflow: auto;
+    padding-bottom: 100px;
+}
+
+
+#footer {
+    position: relative;
+    height: 100px;
+    margin-top: -100px;
+    clear: both;
+}
+.loginform{
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    min-width: 250px;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.loginform img{
+    alignment: center;
+}
+.loginform ul{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+.loginform li{
+    padding: 8px 15px 8px 8px;
+    border:1px solid #000000;
+    margin-bottom: 30px;
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
+}
+.loginform li:last-child{
+    border:none;
+    text-align: center;
+}
+.loginform li > label {
+
+    background: #ffffff;
+    float: left;
+    margin-top: -19px;
+    height: 14px;
+    padding: 2px 5px 2px 5px;
+    color: #000000;
+    font-size: 14px;
+    overflow: hidden;
+    font-family: Helvetica, sans-serif;
+}
+.loginform input[type="text"],
+.loginform input[type="password"],
+.loginform textarea,
+.formstyle select
+{
+    font-family: "Helvetica", serif;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+    background: rgba(255, 255, 255, 0);
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    width: 100%;
+    outline: none;
+    height: 25px;
+    line-height: 25px;
+    font-size: 20px;
+    padding: 3px;
+}
+img{
+    max-width: 50%;
+    height: auto;
+}
+
+input[type=submit],
+[type=button]{
+    background-color: rgba(0, 0, 0, 0.71);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+    width: 95px;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.alert{
+    background-color: #af000a;
+}
+
+
+
+footer{
+    font-family:  Helvetica, serif;
+    text-align: center;
+    margin-top: -50px;
+}
