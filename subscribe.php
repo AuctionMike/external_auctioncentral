@@ -15,7 +15,7 @@
 <div id="container">
 
     <div style="padding-top: 10px; padding-bottom: 100px; width:925px;  font-family: 'Helvetica', serif; font-size: 30px; margin: auto;">
-        <h2 style="color: #c70514; font-weight: bold; text-align: center;"> Live Cross-Platform Dealer Auctions </h2>
+        <h2 style="color: #0b568f; font-weight: lighter; text-align: center;"> Live Cross-Platform Dealer Auctions </h2>
         <h1 style="color: #0b568f; font-weight: lighter; text-align: center; font-size: 20px;">Real time 20 minute auctions from your mobile device or desktop</h1>
         <div id="facts" style="display: flex; padding-top: 50px;">
             <div id="comp" style="width: 100px; padding-right: 100px;">
